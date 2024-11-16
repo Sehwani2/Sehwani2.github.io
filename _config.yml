@@ -283,3 +283,9 @@ defaults:
       show_date: true
 
 date_format: "%Y-%m-%d"
+
+
+collections:
+  embedded_os:
+    output: true
+    permalink: /embedded_os/:path/
