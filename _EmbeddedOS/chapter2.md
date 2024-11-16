@@ -13,13 +13,10 @@ read_time: true
 share: true
 comments: true
 related: true
+toc: true
 ---
 
 ## 개발 환경 구성하기 
-
-- 필자는 VirtualBox를 통해 ubuntu로 진행
-
-
 
 ## 컴파일러 설치하기 
 
@@ -33,12 +30,7 @@ related: true
 - sudo apt install gcc-arm-none-eabi
 - arm-none-eabi-gcc -v 
 
-
-
 ## QEMU 설치하기 
 
 - sudo apt install qemu-system-arm 
 - arm-system-arm  --version
-
-
-
