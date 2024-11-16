@@ -286,11 +286,19 @@ defaults:
       share: true
       related: true
       show_date: true
+  - scope:
+      path: "_EmbeddedOS"
+      type: EmbeddedOS
+    values:
+      layout: single
+      permalink: "/EmbeddedOS/:title/"
 
 date_format: "%Y-%m-%d"
 
 
 collections:
-  embedded_os:
+  EmbeddedOS:
     output: true
-    permalink: /embedded_os/:path/
+    permalink: /EmbeddedOS/:title/
+      
+  
